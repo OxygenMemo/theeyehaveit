@@ -40,7 +40,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     hr{
         border: 1px solid black;
     }
-    
+    #myCarousel{
+        height: 300px;
+    }
         </style>
     </head>
     <body>
