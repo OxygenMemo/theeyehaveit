@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p>name :<?php echo $row->Book_name; ?></p>
                                 <p>author :<?php echo $row->Book_author; ?></p>
                                 <p>price :<?php echo $row->Book_price; ?></p>
-                                <button>buy<button>
+                                <button>buy</button>
 
                         </div>
                     </div>
