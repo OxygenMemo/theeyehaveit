@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         margin: 5px;
         border: 1px solid #ccc;
         float: left;
-        width: 180px;
+        width: 250px;
     }
 
     div.gallery:hover {
