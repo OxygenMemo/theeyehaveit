@@ -6,7 +6,7 @@ class Controller_Catalog extends CI_Controller {
 	public function index()
 	{
 		
-		$re=getNewBooks();
+		$re=$this->getNewBooks();
 		//foreach($data->result() as $row){
 		//	echo $row->Book_id;
 		//}
