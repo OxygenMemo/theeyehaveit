@@ -71,8 +71,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <hr>
         <!-- slide show !-->
-        <div class=col-sm-2></div>
-        <div class="col-sm-8">
+        <div class=col-sm-3></div>
+        <div class="col-sm-6">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -107,7 +107,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </a>
   </div>
         </div>
-        <div class="col-sm-2"></div>
+        <div class="col-sm-3"></div>
         <!-- inner show books !-->
         <div class="col-sm-12">
             
