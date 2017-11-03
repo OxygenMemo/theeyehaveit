@@ -37,6 +37,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         padding: 15px;
         text-align: center;
     }
+    hr{
+        border: 1px solid black;
+    }
+    
         </style>
     </head>
     <body>
