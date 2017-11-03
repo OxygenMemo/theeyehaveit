@@ -40,6 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     hr{
         border: 1px solid black;
     }
+    
         </style>
     </head>
     <body>
@@ -70,6 +71,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <hr>
         <!-- slide show !-->
+        <div class=col-sm-2></div>
+        <div class="col-sm-8">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -103,6 +106,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <span class="sr-only">Next</span>
     </a>
   </div>
+        </div>
+        <div class="col-sm-2"></div>
         <!-- inner show books !-->
         <div class="col-sm-12">
             
