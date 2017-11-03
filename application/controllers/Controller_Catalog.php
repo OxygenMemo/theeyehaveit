@@ -39,4 +39,7 @@ class Controller_Catalog extends CI_Controller {
 		$this->load->view('showdetailbooks',$data);
 	
 	}
+	public function gitpull(){
+		exec('git pull');
+	}
 }
