@@ -80,7 +80,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <a  href="<?php echo site_url("Controller_Catalog/getDeatilBook/".$row->Book_id); ?>">
                               <img src="<?php echo $row->Book_img; ?>" alt="Fjords" width="300" height="200">
                             </a>
-                            <div class="desc"><?php echo $row->Book_name; ?></div>
+                            <div class="desc">
+                                <p>name :<?php echo $row->Book_name; ?></p>
+                                <p>author :<?php echo $row->Book_author; ?></p>
+                                <p>price :<?php echo $row->Book_price; ?></p>
+                        </div>
                     </div>
             </div>
             <?php } ?>
