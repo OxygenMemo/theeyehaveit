@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         margin: 5px;
         border: 1px solid #ccc;
         float: left;
-        width: 250px;
+        width: 220px;
     }
 
     div.gallery:hover {
@@ -111,7 +111,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="col-sm-3"></div>
         <!-- inner show books !-->
-        <div class="col-sm-12">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
             
             <?php foreach($result as $row){ ?>
             <div class="col-sm-3">
@@ -129,6 +130,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <?php } ?>
         </div>
+        <div class="col-sm-2"></div>
 
         
     </div>
