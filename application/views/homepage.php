@@ -115,7 +115,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-sm-8">
             
             <?php foreach($result as $row){ ?>
-            <div class="col-sm-3">
+            <div class="col-sm-4">
                     <div class="gallery">
                             <a target="_blank" href="<?php echo $row->Book_img; ?>">
                               <img src="<?php echo $row->Book_img; ?>" alt="Fjords" width="300" height="200">
