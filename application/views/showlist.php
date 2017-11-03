@@ -74,7 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-sm-12">
             
             <?php foreach($result as $row){ ?>
-            <div class="col-sm-3">
+            <div class="col-sm-4">
             
                     <div class="gallery">
                             <a  href="<?php echo site_url("Controller_Catalog/getDeatilBook/".$row->Book_id); ?>">
