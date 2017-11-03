@@ -5,8 +5,8 @@ class Controller_Catalog extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->model("Model_Catalog");
-		$re=$this->Model_Catalog->getNewBooks();
+		
+		$re=getNewBooks();
 		//foreach($data->result() as $row){
 		//	echo $row->Book_id;
 		//}
@@ -18,7 +18,8 @@ class Controller_Catalog extends CI_Controller {
 
 	}
 	public function getNewBooks(){
-
+		$this->load->model("Model_Catalog");
+		return $this->Model_Catalog->getNewBooks();
 	}
 	public function search(){
 		$this->load->model("Model_Catalog");
