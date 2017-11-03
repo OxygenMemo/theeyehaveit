@@ -78,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             
                     <div class="gallery">
                             <a  href="<?php echo site_url("Controller_Catalog/getDeatilBook/".$row->Book_id); ?>">
-                              <img src="<?php echo $row->Book_img; ?>" alt="Fjords" width="300" height="200">
+                              <img src="<?php echo $row->Book_img; ?>" alt="Fjords" width="400" height="200">
                             </a>
                             <div class="desc">
                                 <p>name :<?php echo $row->Book_name; ?></p>
