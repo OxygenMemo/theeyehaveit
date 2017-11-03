@@ -110,9 +110,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
         </div>
         <div class="col-sm-3"></div>
+        
         <!-- inner show books !-->
+        <div class="row">
         <div class="col-sm-3"></div>
-        <div class="col-sm-9">
+        <div class="col-sm-8">
             
             <?php foreach($result as $row){ ?>
             <div class="col-sm-4">
@@ -129,6 +131,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
             </div>
             <?php } ?>
+        </div>
         </div>
        
 
